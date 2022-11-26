@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+
+}
+.header-container{
+    width: 100%;
+    background-color:#18222E ;
+    height: 48px;
+    padding: 16px 48px;
+    position: fixed;
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+z-index: 200;
+}
+.wrapper{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.logo-container{
+    width: 112px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+.menu-items ul{
+display: flex;
+flex-direction: row;
+color: rgba(242,244,246,.9);
+list-style: none;
+padding: 0 16px ;
+
+
+}
+li{
+    margin: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.menu-item2{
+    flex:1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.trybtn{
+    height: 2.5rem;
+    width: 8.5rem;
+    background-color: #0E79AE;
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
+}
+#aid{
+    text-decoration: none;
+    padding: 14px 20px;
+    color: rgba(242,244,246,.9);
+    border: none;
+    font-size: 17px;
+
+}
+.trybtn:hover{
+    background-color: #019aff;
+}
+#search{
+    color: rgba(242,244,246,.9);;
+}
+#search:hover{
+    color: white;
+    cursor: pointer;
+}
+.Supercontainer{
+    top: 5rem;
+    position: relative;
+    min-height: 80vh;
+    min-width: 320px;
+    background:linear-gradient(90deg, rgba(0,1,1,1) 41%, rgba(0,0,0,0) 64%),url("./images/MLP.jpg");
+background-size: cover;
+    z-index: 0;
+}
+.secondclass{
+min-height: 480px;
+position: relative;
+
+background-image: url("./images/TVOD_MLP_Left.jpg");
+background-size: cover;
+}
+.fourthclass{
+    position: relative;
+    min-height: 480px;
+    background-image: url("./images/MLP_Template_Image_Left.jpg");
+    background-size: cover;
+
+}
+.fifthclass{
+    position: relative;
+    min-height: 480px;
+    background-image: url("./images/IN-kids-30Jan._CB1517304519_.jpg");
+    background-size: cover;
+}
+.words h1{
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3.1rem;
+  font-weight: 400;
+  margin-top: 48px;
+}
+.words{
+    width: 45.5%;
+    margin-right: 50%;
+    padding: 64px 5%;
+}
+.words p{
+    width: 100%;
+    margin-top: 24px;
+    color: white;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+#id{
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.signbt{
+    height: 2.8rem;
+    width: 14.5rem;
+    background-color: #0E79AE;
+    border: none;
+    margin-top: 16px;
+    padding: 10px 15px;
+}
+.signbt:hover{
+    background-color:#019aff;
+}
+
+.sword{
+
+    float: right;
+    width: 45%;
+    height: 45%;
+    padding-top: 13rem;
+    padding-left: 55%;
+  
+}
+.sword h1{
+    color: white;
+    font-size: 2rem
+}
+.sword p{
+    color: white;
+    line-height: 4rem;
+   
+    
+}
+.rentbt{
+    height: 2.5rem;
+    width: 15rem;
+    background-color: #0E79AE;
+    border: none;
+    margin: 8px;
+    
+}
+#rent{
+    color: white;
+    text-decoration-line: none;
+    
+    
+}
+.whiteboard{
+
+    display: flex;
+    flex-direction: row;
+position: relative;
+height: 41rem;
+background-color: white;
+background-size: cover;
+
+}
+.tword{
+    margin-top: 24px;
+    padding: 0 5% 0 0;
+    width: 42%;
+    padding-left: 1rem;
+    float: left;
+}
+.tword h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+    font-weight: 400;
+}
+.tword p{
+    font-size: 1rem;
+     line-height: 1.8rem;
+}
+image{
+    margin-top: 24px;
+    padding: 0 5% 0 0;
+    width: 42%;
+    padding-left: 1rem;
+    float: right;
+}
+.fword{
+    float: right;
+    padding-top: 9rem;
+    width: 46%;
+    height: 40%;
+    padding-right: 2rem;
+    
+
+  
+
+}
+.fword h1{
+    font-size: 1.8rem;
+    line-height: 3.1rem;
+    font-weight: 500;
+    color: white;
+}
+.fword p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.getbtn{
+    height: 43px;
+    width: 14rem;
+    background-color: #0E79AE;
+    border-radius: 0px;
+    border: none
+    
+    
+}
+#getstarted{
+    color: white;
+    text-decoration-line: none;
+}
+.hword{
+    width: 45.5%;
+    margin-right: 50%;
+    padding: 64px 5%;
+
+}
+.hword h1{
+    font-size: 1.8rem;
+    line-height: 3.1rem;
+    font-weight: 500;
+    color: white;
+
+}
+.hword p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: white;
+    margin-bottom: 2rem;
+    
+}
+.started{
+    height: 43px;
+    width: 14rem;
+    background-color: #0E79AE;
+    border-radius: 0px;
+    border: none
+    
+}
+#start{
+    color: white;
+    text-decoration-line: none;
+}
+.sixthclass{
+    background-color: rgb(35,35,34);
+    position: relative;
+    height: 129px;
+background-size: cover;
+    
+
+
+}
+.lastword{
+    padding-left: 35rem;
+    height: 100%;
+    width: 22rem
+}
+.primevideo{
+    width: 100px;
+    max-height: 32px;
+    padding-top: 1rem;
+}
+.center{
+    padding-right:5rem;
+    width: 27rem;
+}
+#terms{
+    font-weight: 200;
+    font-size: 12px;
+    padding-right: 1rem;
+    color:rgb(58,137,197);
+    text-decoration: none;
+    padding-right: 1rem;
+
+}
+#sendus{
+    font-weight: 200;
+    font-size: 12px;
+    padding-right: 1rem;
+    color:rgb(58,137,197);
+    text-decoration: none;
+    padding-right: 1rem;
+}
+#Help{
+    font-size: 12px;
+    font-weight: 200;
+    padding-right: 1rem;
+    color:rgb(58,137,197);
+    text-decoration: none;
+    padding-right: 1rem;
+
+}
+inc{
+    padding-left: 1rem;
+    width:27rem ;
+}
+.inc p{
+    
+    color: rgb(131,123,119);
+    font-size: 12px;
+    font-weight: 200;
+    text-decoration: none;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    font-weight: 200;
+}
+#terms:hover{
+    color: #47b9f1;
+}
+#sendus:hover{
+    color: #47b9f1;
+
+}
+#Help:hover{
+    color: #47b9f1;
+
+}
+.grid-item{
+    width: 13.6rem;
+    height: 9.6rem;
+
+}
+.grid-item img{
+    width: 100%;
+    height: 100%;
+}
+.brand-grid-wrapper{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,0.3fr);
+    grid-template-rows: 9.5rem;
+    grid-row-gap: 0.4rem;
+    grid-column-gap: 0.4rem;
+
+}
+.grid-item:hover{
+    cursor: pointer;
+    box-shadow: -2px 2px 8px 2px #19222E ;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+
+.categories-submenu{
+    position: absolute;
+    width: 100%;
+    min-height: 19rem;
+    background: linear-gradient(90deg, rgba(17,30,40,1) 34%, rgba(15,24,32,1) 69%);
+    right: 0;
+    left: 0;
+    top: 70px;
+    display: none;
+    flex-direction: row;
+    padding: 2rem 4rem;
+
+}
+.label1{
+    position: relative;
+    padding-bottom: 30px;
+}
+.label1:hover+.categories-submenu{
+    display: flex;
+    z-index: 1;
+}
+.label1+.categories-submenu:hover{
+    display: flex;
+
+}
+
+
+.top-categories{
+border-right: 1px solid rgba(242,244,246,.9);
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: end;
+padding-right: 50px;
+
+}
+.top-categories h2{
+    font-weight: 400;
+    font-style: 1rem;
+    width: 100%;
+    margin-right: 28%;
+    text-align: center;
+
+
+}
+.categories-grid{
+    display: grid;
+    grid-template-columns: repeat(3,0.2fr);
+    grid-template-rows: 0.5rem;
+    grid-column-gap: 0.8rem;
+    grid-row-gap: 7rem;
+    margin-top: 1rem;
+
+}
+.grid-item-head{
+    background-image: url(./images/Amazon-Originals.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    width: 10.5rem;
+    height:6.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.grid-item-head:hover{
+    border: 1px solid white;
+
+
+}
+.grid-item-head h3{
+font-weight: 500;
+font-size: 0.9rem;
+line-height: 1.5;
+}
+.other-categories1{
+    width: 60%;
+display: flex;
+flex-direction: row;
+
+}
+
+.audio-languages1{
+    padding: 0 1.5rem ;
+
+
+}
+.audio-languages1 h2,.anothers h2{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.lang-list1{
+    display: flex;
+    flex-direction: row;
+
+}
+.lang-list1 ul,.anothers ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.lang-list1 li,.anothers li{
+    list-style: none;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: rgba(242,244,246,.9);
+}
+.lang-list1 li:hover,.anothers li:hover{
+    color: white;
+}
+
+
